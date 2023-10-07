@@ -21,15 +21,17 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="65dp"
-            android:src="@drawable/biggy" />
+            android:src="@drawable/study" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
-            android:text="fhbjfv udfcbgkfdj kudfhski fdvihvfk fvblxf  huifgvhk  fgilu eb jrebgurbgj guf iu rgui"
+            android:text="Better to learn \nwith Keybox , Better way \nis calling you!"
             android:textAlignment="center"
-            android:textSize="17sp" />
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="20sp" />
 
 
     </LinearLayout>
