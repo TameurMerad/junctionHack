@@ -5,8 +5,9 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:scrollbars="none"
-    android:background="@drawable/gradient_background"
-    tools:context=".rankFragment">
+    tools:context=".rankFragment"
+    android:padding="20dp"
+    >
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -25,7 +26,10 @@
             android:textColor="@color/black"/>
         <androidx.coordinatorlayout.widget.CoordinatorLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:background="@drawable/rank_bg"
+            android:padding="20dp"
+            >
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -36,7 +40,6 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="20dp"
                     android:src="@drawable/first"/>
                 <TextView
                     android:layout_width="wrap_content"
@@ -52,7 +55,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
-                android:layout_marginTop="37dp"
+                android:layout_marginTop="50dp"
                 android:orientation="horizontal">
 
                 <LinearLayout
@@ -82,7 +85,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:layout_weight="0.5"
-                    android:layout_marginStart="75dp"
+                    android:layout_marginStart="55dp"
                     android:orientation="vertical">
 
                     <ImageView
@@ -110,221 +113,32 @@
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:cardCornerRadius="20dp"
-            app:cardElevation="14dp"
-            android:backgroundTint="#6083FF"
-            android:layout_marginStart="20dp"
-            android:layout_marginEnd="20dp"
             android:layout_marginTop="20dp"
-            >
+            android:backgroundTint="#D5D6ED"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="14dp">
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="bou hmama"
                 android:layout_gravity="start"
-                android:textColor="@color/black"
                 android:layout_margin="15dp"
+                android:text="bou hmama"
+                android:textColor="@color/black"
 
                 android:textSize="19dp" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="999 pts"
                 android:layout_gravity="end"
-                android:textColor="@color/black"
                 android:layout_margin="15dp"
+                android:text="999 pts"
+                android:textColor="@color/black"
                 android:textSize="20dp" />
 
 
-
         </androidx.cardview.widget.CardView>
-        <androidx.cardview.widget.CardView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:cardCornerRadius="20dp"
-            app:cardElevation="14dp"
-            android:backgroundTint="#7E9AFF"
-            android:layout_marginStart="20dp"
-            android:layout_marginEnd="20dp"
-            android:layout_marginTop="20dp"
-            >
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="bou hmama"
-                android:layout_gravity="start"
-                android:textColor="@color/black"
-                android:layout_margin="15dp"
-
-                android:textSize="19dp" />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="999 pts"
-                android:layout_gravity="end"
-                android:textColor="@color/black"
-                android:layout_margin="15dp"
-                android:textSize="20dp" />
-
-
-
-        </androidx.cardview.widget.CardView>
-        <androidx.cardview.widget.CardView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:cardCornerRadius="20dp"
-            app:cardElevation="14dp"
-            android:backgroundTint="#7E9AFF"
-            android:layout_marginStart="20dp"
-            android:layout_marginEnd="20dp"
-            android:layout_marginTop="20dp"
-            >
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="bou hmama"
-                android:layout_gravity="start"
-                android:textColor="@color/black"
-                android:layout_margin="15dp"
-
-                android:textSize="19dp" />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="999 pts"
-                android:layout_gravity="end"
-                android:textColor="@color/black"
-                android:layout_margin="15dp"
-                android:textSize="20dp" />
-
-
-
-        </androidx.cardview.widget.CardView>
-        <androidx.cardview.widget.CardView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:cardCornerRadius="20dp"
-            app:cardElevation="14dp"
-            android:backgroundTint="#7E9AFF"
-            android:layout_marginStart="20dp"
-            android:layout_marginEnd="20dp"
-            android:layout_marginTop="20dp"
-            >
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="bou hmama"
-                android:layout_gravity="start"
-                android:textColor="@color/black"
-                android:layout_margin="15dp"
-
-                android:textSize="19dp" />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="999 pts"
-                android:layout_gravity="end"
-                android:textColor="@color/black"
-                android:layout_margin="15dp"
-                android:textSize="20dp" />
-
-
-
-        </androidx.cardview.widget.CardView>
-        <androidx.cardview.widget.CardView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:cardCornerRadius="20dp"
-            app:cardElevation="14dp"
-            android:backgroundTint="#7E9AFF"
-            android:layout_marginStart="20dp"
-            android:layout_marginEnd="20dp"
-            android:layout_marginTop="20dp"
-            >
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="bou hmama"
-                android:layout_gravity="start"
-                android:textColor="@color/black"
-                android:layout_margin="15dp"
-
-                android:textSize="19dp" />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="999 pts"
-                android:layout_gravity="end"
-                android:textColor="@color/black"
-                android:layout_margin="15dp"
-                android:textSize="20dp" />
-
-
-
-        </androidx.cardview.widget.CardView>
-        <androidx.cardview.widget.CardView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:cardCornerRadius="20dp"
-            app:cardElevation="14dp"
-            android:backgroundTint="#7E9AFF"
-            android:layout_marginStart="20dp"
-            android:layout_marginEnd="20dp"
-            android:layout_marginTop="20dp"
-            >
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="bou hmama"
-                android:layout_gravity="start"
-                android:textColor="@color/black"
-                android:layout_margin="15dp"
-
-                android:textSize="19dp" />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="999 pts"
-                android:layout_gravity="end"
-                android:textColor="@color/black"
-                android:layout_margin="15dp"
-                android:textSize="20dp" />
-
-
-
-        </androidx.cardview.widget.CardView>
-        <androidx.cardview.widget.CardView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:cardCornerRadius="20dp"
-            app:cardElevation="14dp"
-            android:backgroundTint="#7E9AFF"
-            android:layout_marginStart="20dp"
-            android:layout_marginEnd="20dp"
-            android:layout_marginTop="20dp"
-            >
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="bou hmama"
-                android:layout_gravity="start"
-                android:textColor="@color/black"
-                android:layout_margin="15dp"
-
-                android:textSize="19dp" />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="999 pts"
-                android:layout_gravity="end"
-                android:textColor="@color/black"
-                android:layout_margin="15dp"
-                android:textSize="20dp" />
-
-
-
-        </androidx.cardview.widget.CardView>
-
 
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
@@ -332,10 +146,8 @@
             app:cardCornerRadius="20dp"
             app:cardElevation="14dp"
             android:backgroundTint="#9FACDA"
-            android:layout_marginStart="20dp"
-            android:layout_marginEnd="20dp"
+
             android:layout_marginTop="20dp"
-            android:layout_marginBottom="100dp"
             >
             <TextView
                 android:layout_width="wrap_content"
@@ -358,6 +170,98 @@
 
 
         </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="14dp"
+            android:backgroundTint="#9FACDA"
+
+            android:layout_marginTop="20dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="bou hmama"
+                android:layout_gravity="start"
+                android:textColor="@color/black"
+                android:layout_margin="15dp"
+
+                android:textSize="19dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="999 pts"
+                android:layout_gravity="end"
+                android:textColor="@color/black"
+                android:layout_margin="15dp"
+                android:textSize="20dp" />
+
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="14dp"
+            android:backgroundTint="#9FACDA"
+
+            android:layout_marginTop="20dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="bou hmama"
+                android:layout_gravity="start"
+                android:textColor="@color/black"
+                android:layout_margin="15dp"
+
+                android:textSize="19dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="999 pts"
+                android:layout_gravity="end"
+                android:textColor="@color/black"
+                android:layout_margin="15dp"
+                android:textSize="20dp" />
+
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="14dp"
+            android:backgroundTint="#9FACDA"
+
+            android:layout_marginTop="20dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="bou hmama"
+                android:layout_gravity="start"
+                android:textColor="@color/black"
+                android:layout_margin="15dp"
+
+                android:textSize="19dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="999 pts"
+                android:layout_gravity="end"
+                android:textColor="@color/black"
+                android:layout_margin="15dp"
+                android:textSize="20dp" />
+
+
+
+        </androidx.cardview.widget.CardView>
+
+
 
 
 

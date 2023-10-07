@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".signupfrag">
+
+      <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+          <ImageView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:src="@drawable/keybox"
+              android:layout_margin="30dp"/>
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Welcome back! \n Sign in to continue!"
+              android:textAlignment="center"
+              android:layout_gravity="center"
+              android:textSize="22dp"
+              android:textStyle="bold"
+              android:layout_margin="25dp"/>
+
+
+          <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="15dp"
+        app:boxBackgroundMode="outline"
+        app:hintEnabled="false"
+        app:boxCornerRadiusBottomEnd="15dp"
+        app:boxCornerRadiusBottomStart="15dp"
+        app:boxCornerRadiusTopEnd="15dp"
+        app:boxCornerRadiusTopStart="15dp"
+        app:boxStrokeWidth="2dp"
+        >
+
+        <EditText
+            android:id="@+id/nameSignInET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:hint="Name"
+            android:inputType="text"
+            android:maxLines="1"
+            android:outlineSpotShadowColor="@color/black"
+            android:paddingBottom="18sp"
+            android:singleLine="true"
+            android:textSize="14dp"
+            />
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="15dp"
+        app:boxBackgroundMode="outline"
+        app:hintEnabled="false"
+        app:boxCornerRadiusBottomEnd="15dp"
+        app:boxCornerRadiusBottomStart="15dp"
+        app:boxCornerRadiusTopEnd="15dp"
+        app:boxCornerRadiusTopStart="15dp"
+        app:boxStrokeWidth="2dp"
+        >
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:hint="email"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:outlineSpotShadowColor="@color/black"
+            android:paddingBottom="18sp"
+            android:singleLine="true"
+            android:textSize="14dp"
+            />
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="15dp"
+        app:hintEnabled="false"
+        app:boxBackgroundMode="outline"
+        app:boxCornerRadiusBottomEnd="15dp"
+        app:boxCornerRadiusBottomStart="15dp"
+        app:boxCornerRadiusTopEnd="15dp"
+        app:boxCornerRadiusTopStart="15dp"
+        app:passwordToggleEnabled="true"
+        app:boxStrokeWidth="2dp"
+        >
+
+        <EditText
+            android:id="@+id/passowrd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:hint="passowrd"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:outlineSpotShadowColor="@color/black"
+            android:paddingBottom="18sp"
+            android:singleLine="true"
+            android:textSize="14dp"
+            />
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal"
+              android:gravity="center">
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="are you adult ?"
+                  android:layout_marginEnd="8dp" />
+
+              <RadioButton
+                  android:id="@+id/adultradioButton"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:checked="false" />
+          </LinearLayout>
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal"
+              android:gravity="center">
+              <TextView
+                  android:id="@+id/textView"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="are you a student"
+                  android:layout_marginEnd="8dp" />
+
+              <RadioButton
+                  android:id="@+id/studentradioButton"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:checked="false" />
+          </LinearLayout>
+
+
+          <androidx.appcompat.widget.AppCompatButton
+              android:id="@+id/loginOnboardingBtn"
+              android:layout_width="match_parent"
+              android:layout_height="60dp"
+              android:background="@drawable/btn_bg"
+              android:layout_margin="20dp"
+              android:text="register"
+              app:layout_constraintBottom_toTopOf="@+id/appCompatButton"
+              />
+          <androidx.appcompat.widget.AppCompatButton
+              android:id="@+id/gotologin"
+              android:layout_width="match_parent"
+              android:layout_height="60dp"
+              android:background="@drawable/btn_bg_whit"
+              android:layout_marginStart="20dp"
+              android:layout_marginEnd="20dp"
+              android:layout_marginBottom="50dp"
+              android:text="go to login"
+              android:textColor="#0081A6"
+               />
+
+
+
+
+</LinearLayout>
+
+
+</FrameLayout>

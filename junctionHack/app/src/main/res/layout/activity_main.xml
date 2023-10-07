@@ -26,7 +26,6 @@
         android:layout_height="wrap_content"
         android:background="@drawable/bnb_background"
         android:padding="12dp"
-
         style="@style/Widget.MaterialComponents.BottomNavigationView.PrimarySurface"
         app:itemIconTint="@color/white"
         app:labelVisibilityMode="unlabeled"

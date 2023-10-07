@@ -5,6 +5,8 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.viewpager.widget.ViewPager
+import androidx.viewpager2.widget.ViewPager2
 
 
 class profileFragment : Fragment() {
@@ -15,6 +17,8 @@ class profileFragment : Fragment() {
     ): View? {
         val view = inflater.inflate(R.layout.fragment_profile, container, false)
 
+        val viewPagermy = view.findViewById<ViewPager>(R.id.myViewPAger)
+        viewPagermy.adapter = ViewPagerAdapter(childFragmentManager)
 
 
 
