@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/miCourses"
+        android:title="Courses"
+        android:icon="@drawable/home_select"/>
+    <item
+        android:id="@+id/miLeader"
+        android:title="Ranking"
+        android:icon="@drawable/search_select"/>
+
+    <item
+        android:id="@+id/miUser"
+        android:title="Profil"
+        android:icon="@drawable/user_select"/>
+</menu>
