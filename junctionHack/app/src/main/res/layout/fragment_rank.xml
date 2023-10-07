@@ -45,7 +45,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
-                    android:text="first"
+                    android:text="Yasseur"
+                    android:textStyle="bold"
                     android:textSize="20dp"
                     android:textColor="@color/black"/>
             </LinearLayout>
@@ -75,7 +76,9 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
-                        android:text="second"
+                        android:text="Tameur"
+                        android:textStyle="bold"
+
                         android:textColor="@color/black"
                         android:textSize="20dp" />
                 </LinearLayout>
@@ -98,7 +101,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
-                        android:text="third"
+                        android:text="Safie"
+                        android:textStyle="bold"
                         android:textColor="@color/black"
                         android:textSize="20dp" />
                 </LinearLayout>
@@ -116,14 +120,14 @@
             android:layout_marginTop="20dp"
             android:backgroundTint="#D5D6ED"
             app:cardCornerRadius="20dp"
-            app:cardElevation="14dp">
+            app:cardElevation="4dp">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="start"
                 android:layout_margin="15dp"
-                android:text="bou hmama"
+                android:text=" Yasseur bottoba"
                 android:textColor="@color/black"
 
                 android:textSize="19dp" />
@@ -144,7 +148,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:cardCornerRadius="20dp"
-            app:cardElevation="14dp"
+            app:cardElevation="4dp"
             android:backgroundTint="#9FACDA"
 
             android:layout_marginTop="20dp"
@@ -152,7 +156,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="bou hmama"
+                android:text="Tameur Merad"
                 android:layout_gravity="start"
                 android:textColor="@color/black"
                 android:layout_margin="15dp"
@@ -161,7 +165,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="999 pts"
+                android:text="758 pts"
                 android:layout_gravity="end"
                 android:textColor="@color/black"
                 android:layout_margin="15dp"
@@ -174,7 +178,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:cardCornerRadius="20dp"
-            app:cardElevation="14dp"
+            app:cardElevation="4dp"
             android:backgroundTint="#9FACDA"
 
             android:layout_marginTop="20dp"
@@ -182,7 +186,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="bou hmama"
+                android:text="safie zgtof"
                 android:layout_gravity="start"
                 android:textColor="@color/black"
                 android:layout_margin="15dp"
@@ -191,7 +195,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="999 pts"
+                android:text="752 pts"
                 android:layout_gravity="end"
                 android:textColor="@color/black"
                 android:layout_margin="15dp"
@@ -204,7 +208,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:cardCornerRadius="20dp"
-            app:cardElevation="14dp"
+            app:cardElevation="4dp"
             android:backgroundTint="#9FACDA"
 
             android:layout_marginTop="20dp"
@@ -212,7 +216,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="bou hmama"
+                android:text="mehdi benzada"
                 android:layout_gravity="start"
                 android:textColor="@color/black"
                 android:layout_margin="15dp"
@@ -221,7 +225,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="999 pts"
+                android:text="675 pts"
                 android:layout_gravity="end"
                 android:textColor="@color/black"
                 android:layout_margin="15dp"
@@ -234,7 +238,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:cardCornerRadius="20dp"
-            app:cardElevation="14dp"
+            app:cardElevation="4dp"
             android:backgroundTint="#9FACDA"
 
             android:layout_marginTop="20dp"
@@ -242,7 +246,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="bou hmama"
+                android:text="zaki hmama"
                 android:layout_gravity="start"
                 android:textColor="@color/black"
                 android:layout_margin="15dp"
@@ -251,7 +255,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="999 pts"
+                android:text="558 pts"
                 android:layout_gravity="end"
                 android:textColor="@color/black"
                 android:layout_margin="15dp"
@@ -260,6 +264,67 @@
 
 
         </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="4dp"
+            android:backgroundTint="#9FACDA"
+
+            android:layout_marginTop="20dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="lina souza"
+                android:layout_gravity="start"
+                android:textColor="@color/black"
+                android:layout_margin="15dp"
+
+                android:textSize="19dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="421 pts"
+                android:layout_gravity="end"
+                android:textColor="@color/black"
+                android:layout_margin="15dp"
+                android:textSize="20dp" />
+
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="4dp"
+            android:backgroundTint="#9FACDA"
+            android:layout_marginBottom="120dp"
+            android:layout_marginTop="20dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="bouja fati"
+                android:layout_gravity="start"
+                android:textColor="@color/black"
+                android:layout_margin="15dp"
+
+                android:textSize="19dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="315 pts"
+                android:layout_gravity="end"
+                android:textColor="@color/black"
+                android:layout_margin="15dp"
+                android:textSize="20dp" />
+
+
+
+        </androidx.cardview.widget.CardView>
+
 
 
 

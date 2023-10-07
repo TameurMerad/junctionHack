@@ -5,7 +5,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:background="@drawable/teachers_background"
-
     tools:context=".teachers_opinionfrag"
     android:layout_marginStart="20dp"
     android:layout_marginTop="20dp"
@@ -21,6 +20,16 @@
         android:layout_marginTop="10dp"
         android:layout_marginBottom="10dp"
         android:textStyle="bold" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -180,9 +189,12 @@
         android:textSize="15dp" />
 
 
+        </LinearLayout>
 
+    </ScrollView>
 
 </LinearLayout>
+
 
 
 

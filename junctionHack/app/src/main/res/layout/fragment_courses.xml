@@ -129,8 +129,8 @@
                 android:gravity="center">
                 <ImageView
                     android:layout_marginTop="25dp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="94dp"
+                    android:layout_height="94dp"
                     android:src="@drawable/courseone"/>
                 <TextView
                     android:layout_width="wrap_content"
@@ -143,7 +143,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="20 chapter"
+                    android:text="10 chapter"
                     android:textColor="@color/black"
                     android:textSize="16sp"
                     android:layout_marginBottom="25dp"
@@ -169,13 +169,13 @@
                 android:gravity="center">
                 <ImageView
                     android:layout_marginTop="25dp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/courseone"/>
+                    android:layout_width="94dp"
+                    android:layout_height="94dp"
+                    android:src="@drawable/coursetwo"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="mobile dev"
+                    android:text="web dev"
                     android:textColor="@color/black"
                     android:textSize="18sp"
                     android:textStyle="bold"
@@ -215,13 +215,13 @@
                 android:gravity="center">
                 <ImageView
                     android:layout_marginTop="25dp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/courseone"/>
+                    android:layout_width="94dp"
+                    android:layout_height="94dp"
+                    android:src="@drawable/coursethree"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="mobile dev"
+                    android:text="UI UX"
                     android:textColor="@color/black"
                     android:textSize="18sp"
                     android:textStyle="bold"
@@ -229,7 +229,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="20 chapter"
+                    android:text="55 chapter"
                     android:textColor="@color/black"
                     android:textSize="16sp"
                     android:layout_marginBottom="25dp"
@@ -255,13 +255,13 @@
                 android:gravity="center">
                 <ImageView
                     android:layout_marginTop="25dp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/courseone"/>
+                    android:layout_width="94dp"
+                    android:layout_height="94dp"
+                    android:src="@drawable/coursefour"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="mobile dev"
+                    android:text="design"
                     android:textColor="@color/black"
                     android:textSize="18sp"
                     android:textStyle="bold"
@@ -269,7 +269,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="20 chapter"
+                    android:text="7 chapter"
                     android:textColor="@color/black"
                     android:textSize="16sp"
                     android:layout_marginBottom="25dp"
@@ -282,6 +282,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
+        android:layout_marginBottom="30dp"
         >
 
         <androidx.cardview.widget.CardView
