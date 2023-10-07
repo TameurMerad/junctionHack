@@ -100,7 +100,7 @@
             android:paddingEnd="25dp"
             android:text="see all"
             android:gravity="end"
-            android:textColor="#4E74F9"
+            android:textColor="#0081A6"
             android:textSize="22sp"
             android:textStyle="bold"
             />
